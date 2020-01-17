@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://stoxproject.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stoxproject.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stoxproject.github.io/project/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stoxproject.github.io/project/rstoxbase/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stoxproject.github.io/project/rstoxdata/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stoxproject.github.io/project/rstoxfda/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stoxproject.github.io/project/rstoxframework/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stoxproject.github.io/project/stox/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stoxproject.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stoxproject.github.io/tags/</loc>
+  </url>
+  
+</urlset>
