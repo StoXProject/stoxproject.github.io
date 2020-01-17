@@ -1,0 +1,15 @@
+---
+install:
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_0.62.2_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
+script:
+  - hugo
+deploy:
+  - provider: pages
+    skip-cleanup: true
+    github-token: $API_KEY
+    keep-history: true
+    local-dir: public
+    on:
+     branch: master
+     condition: $TRAVIS_OS_NAME = linux
