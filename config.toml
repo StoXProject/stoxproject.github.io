@@ -1,10 +1,11 @@
 baseURL = "https://stoxproject.github.io"
 languageCode = "en-us"
-title = "StoX Project Homepage"
+title = "StoX Project"
 theme = "minimal"
 googleAnalytics = ""
 
 [params]
+    profilePic = "/img/stox.jpg#stoxlogo"
     author = "StoX Project Team at the Institute of Marine Research, Norway"
     description = "An open source approach to acoustic and swept area survey calculations"
     githubUsername = "StoXProject"
@@ -14,7 +15,8 @@ googleAnalytics = ""
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "default"
-    highlightLanguages = ["R", "C++", "JavaScript", "TypeScript"]
+    highlightLanguages = ["r", "cpp", "javascript", "typescript"]
+    css = ["css/align.css"]
 
 [[menu.main]]
     url = "/"
@@ -25,11 +27,6 @@ googleAnalytics = ""
     url = "/about/"
     name = "About"
     weight = 2
-
-[[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 3
 
 [[menu.main]]
     url = "/project/"
