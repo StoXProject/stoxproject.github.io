@@ -10,6 +10,6 @@ deploy:
     github-token: $API_KEY
     keep-history: true
     local-dir: public
+    target_branch: master
     on:
-     branch: master
-     condition: $TRAVIS_OS_NAME = linux
+     branch: source
